@@ -31,4 +31,6 @@ dependencies {
     def mobileCenterSdkVersion = '0.5.0'
     compile "com.microsoft.azure.mobile:mobile-center-analytics:${mobileCenterSdkVersion}"
     compile "com.microsoft.azure.mobile:mobile-center-crashes:${mobileCenterSdkVersion}"
+
+    androidTestCompile('com.xamarin.testcloud:espresso-support:1.1')
 }
